@@ -6,7 +6,7 @@ a {
     text-decoration: none;
 }
 .header {
-    background-color: rgb(255, 238, 0);
+    background-color: rgb(155, 117, 87);
     color: white;
     height: 100px;
     margin: -20px -20px 60px -20px; 
@@ -22,7 +22,7 @@ a {
     padding: 10px 20px;    
     margin-left: 50px;
     margin-top: 5px;
-    margin-right: 560px;
+    margin-right: 380px;
     color: white;
 }
 .header-list li{
@@ -34,18 +34,15 @@ a {
     color: white;
 }
 #about {
-    color: rgb(0, 68, 255);    
+    color: rgb(25, 0, 255);    
     padding: 20px 30px 40px 50px;     
-    background-color: rgba(0, 255, 255, 0.651);  
-    background-size: cover;
-    
     margin-left: -20px;
     margin-right: -20px;    
 }
 #details {
-    color: rgb(0, 255, 55);    
+    color: rgb(238, 255, 0);    
     padding: 20px 30px 40px 50px;          
-    background-color: rgba(98, 0, 255, 0.651);  
+    background-color: rgba(97, 9, 240, 0.856);  
     background-size: cover;
     margin-left: -20px;
     margin-right: -20px;
@@ -53,17 +50,44 @@ a {
 }
 #details img {
     height: 320px;
-    width: 80%;
+    width: 100%;
     border: 1px solid none;
     border-radius: 20px;
+}
+#details i {
+    font-size: 20px;
+}
+#details h4 {
+    text-decoration: underline;
+    color: cyan;
+}
+#details p {
+    text-align: justify;
+}
+.desc{
+    width: 60%;
+    padding-left: 40px;
 }
 .topic{
     text-align: center;
     font-size: 30px;
-    color: rgb(250, 209, 95);
+    color: rgb(113, 250, 95);
+    text-decoration: double underline;
 }
 .part2 h3{
     color: cornsilk;
+}
+.sell {
+    background-color: darkorange;
+    padding: 20px 30px 40px 50px; 
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.psell {
+    margin-left: 35%;
+}
+.psell label {
+    font-size: 20px;
 }
 .footer {
     background-color: rgba(150, 160, 152, 0.61);    
